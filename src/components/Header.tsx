@@ -33,7 +33,6 @@ const Header: React.FC = () => {
     { text: 'Доставка', path: '/delivery' },
     { text: 'Оплата', path: '/payment' },
     { text: 'Блог', path: '/blog' },
-    { text: 'Гарантии', path: '/guarantees' },
     { text: 'Скидки', path: '/discounts' },
     { text: 'Контакты', path: '/contacts' },
   ];

@@ -4,6 +4,7 @@ import { ThemeProvider, createTheme, CssBaseline, Box } from '@mui/material';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import ProductDetail from './pages/ProductDetail';
 
 const theme = createTheme({
   palette: {
@@ -33,6 +34,7 @@ const App: React.FC = () => {
           <Box component="main" sx={{ flex: 1 }}>
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/product/:id" element={<ProductDetail />} />
               {/* Добавьте другие маршруты здесь */}
             </Routes>
           </Box>
